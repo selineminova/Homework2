@@ -29,7 +29,7 @@ int main()
 		sum=0;
 		for(j=0;j<size;j++)
 		{
-			if(matrix[i][j]!=0)
+			if(matrix[i][j]%2!=0)
 			{
 				sum=sum+matrix[i][j];
 			}
